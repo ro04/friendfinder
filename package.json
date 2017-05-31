@@ -1,0 +1,24 @@
+{
+  "name": "friendfinder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ro04/friendfinder.git"
+  },
+  "author": "L. Rochelle Beal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ro04/friendfinder/issues"
+  },
+  "homepage": "https://github.com/ro04/friendfinder#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3"
+  }
+}
