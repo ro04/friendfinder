@@ -5,35 +5,33 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>Friend Finder</title>
         <!-- BOOTSTRAP -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <!-- Latest compiled and minified CSS & JS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+        <script src="https://code.jquery.com/jquery.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
         <!-- BOOTSTAP SELECT-->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.2/css/bootstrap-select.min.css">
         <!-- Latest compiled and minified JavaScript -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.2/js/bootstrap-select.min.js"></script>
-
-        <!-- (Optional) Latest compiled and minified JavaScript translation files -->
-        <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.2/js/i18n/defaults-*.min.js"></script>-->
-
     </head>
     <body>
         <div class="container">
             <div class="page-header">
-                <h1>Survey Questions</h1>      
+                <h1><strong>Survey Questions</strong></h1>      
             </div>
-            <p>About You.</p>
+
+            <h2>About You</h2>
 
             <div class="form-group">
-                <label for="usr">Name:</label>
-                <input type="text" class="form-control" id="usr">
+                <label for="usr">Name (Required)</label>
+                <input type="text" id="usr" class="form-control" required>
                 <br>
-                <label for="photo">Photo:</label>
-                <input type="text" class="form-control" id="photo">
+                <label for="photo">Link to Photo Image (Required)</label>
+                <input type="text" id="photo" class="form-control" required>
             </div>  
 
             <h2>Question 1</h2>
-            <p>I'm looking for a companion to join me in my outdoor activities.</p>
+            <h4>I'm looking for a companion to join me in my outdoor activities.</h4>
             <div class="form-group">
                 <select class="selectpicker form-control" id="q1" title="Choose one of the following...">
                     <option value='1'>1 (Stongly Disagree)</option>
@@ -43,10 +41,9 @@
                     <option value='5'>5 (Strongly Agree)</option>
                 </select>
             </div>
-            
 
             <h2>Question 2</h2>
-            <p>My household is fun and lively with lots of children always around.</p>
+            <h4>I love to travel to cool places.</h4>
             <div class="form-group">
                 <select class="selectpicker form-control" id="q2" title="Choose one of the following...">
                     <option value='1'>1 (Stongly Disagree)</option>
@@ -58,7 +55,7 @@
             </div>
 
             <h2>Question 3</h2>
-            <p>My household is fun and lively with lots of children always around.</p>
+            <h4>I'm a night person and love to party with friends.</h4>
             <div class="form-group">
                 <select class="selectpicker form-control" id="q3" title="Choose one of the following...">
                     <option value='1'>1 (Stongly Disagree)</option>
@@ -70,7 +67,7 @@
             </div>
 
             <h2>Question 4</h2>
-            <p>My household is fun and lively with lots of children always around.</p>
+            <h4>I love tatoos.</h4>
             <div class="form-group">
                 <select class="selectpicker form-control" id="q4" title="Choose one of the following...">
                     <option value='1'>1 (Stongly Disagree)</option>
@@ -82,7 +79,7 @@
             </div>
 
             <h2>Question 5</h2>
-            <p>My household is fun and lively with lots of children always around.</p>
+            <h4>I enjoy cooking.</h4>
             <div class="form-group">
                 <select class="selectpicker form-control" id="q5" title="Choose one of the following...">
                     <option value='1'>1 (Stongly Disagree)</option>
@@ -94,7 +91,7 @@
             </div>
 
             <h2>Question 6</h2>
-            <p>My household is fun and lively with lots of children always around.</p>
+            <h4>I'm addicted to social media.</h4>
             <div class="form-group">
                 <select class="selectpicker form-control" id="q6" title="Choose one of the following...">
                     <option value='1'>1 (Stongly Disagree)</option>
@@ -106,7 +103,7 @@
             </div>
 
             <h2>Question 7</h2>
-            <p>My household is fun and lively with lots of children always around.</p>
+            <h4>I love looking better than everyone else.</h4>
             <div class="form-group">
                 <select class="selectpicker form-control" id="q7" title="Choose one of the following...">
                     <option value='1'>1 (Stongly Disagree)</option>
@@ -118,7 +115,7 @@
             </div>
 
             <h2>Question 8</h2>
-            <p>My household is fun and lively with lots of children always around.</p>
+            <h4>I love posing for pictures.</h4>
             <div class="form-group">
                 <select class="selectpicker form-control" id="q8" title="Choose one of the following...">
                     <option value='1'>1 (Stongly Disagree)</option>
@@ -130,7 +127,7 @@
             </div>
 
             <h2>Question 9</h2>
-            <p>My household is fun and lively with lots of children always around.</p>
+            <h4>My favorite outdoor activity is shopping.</h4>
             <div class="form-group">
                 <select class="selectpicker form-control" id="q9" title="Choose one of the following...">
                     <option value='1'>1 (Stongly Disagree)</option>
@@ -142,7 +139,7 @@
             </div>
 
             <h2>Question 10</h2>
-            <p>My household is fun and lively with lots of children always around.</p>
+            <h4>I secretly love Donald Trump.</h4>
             <div class="form-group">
                 <select class="selectpicker form-control" id="q10" title="Choose one of the following...">
                     <option value='1'>1 (Stongly Disagree)</option>
@@ -154,66 +151,166 @@
             </div>
 
             <div class="submit">
-                <button type="button" class="btn btn-primary btn-block">Button 1</Submit>
+                <button type="button" class="btn btn-primary btn-block" id="btn-submit">Submit Survey</button>
+
+                <br>
+
+                <button type="button" class="btn btn-danger btn-block" id="btn-reset">Reset Survey</button>
             </div>
+            
+
+            <div class="modal fade" id="myModal" role="dialog">
+                <div class="modal-dialog">
+                    <div class='modal-content'>
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h4>Your Friend Finder</h4>
+                        </div>
+                        <div class="modal-body">
+                            <div id="name"></div>
+                            <br>
+                             <img src="" id="image" style="width: 400px; height: 400px;" >
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
             <hr>
 
             <footer class="footer">
-                <div class="container">
-                    <p><a href="/api/friends">API Friend Link</a> | <a href="https://github.com/ro04/friendfinder">GitHub Repo</a></p>
-                </div>
+                <p><a href="/api/friends">API Friend Link</a> | <a href="https://github.com/ro04/friendfinder">GitHub Repo</a></p>
             </footer>
         </div>
     </body>
-</html>
+
 <!-- BELOW CODE IS CRITICAL. IT HANDLES HOW FORM DATA IS SENT TO OUR SERVER -->
 <script type="text/javascript">
-    $(document).ready(function(){
-        var score = [];
-        $(".submit").on("click", function(event) {
-            event.preventDefault(); 
-            score.push($('#q1').val());
-            score.push($('#q2').val());
-            score.push($('#q3').val());
-            score.push($('#q4').val());
-            score.push($('#q5').val());
-            score.push($('#q6').val());
-            score.push($('#q7').val());
-            score.push($('#q8').val());
-            score.push($('#q9').val());
-            score.push($('#q10').val());
+$( document ).ready(function() {
+               
+    $("#btn-submit").on("click", function(event) {
+        event.preventDefault(); 
+        var userName = "";
+        var userPhoto = "";
+        var userScore = [];
 
-            //Here we grab the form elements 
-            var friendsData = {
-                userName: $('#usr').val().trim(),
-                userPhoto: $('#photo').val().trim(),
-                userScore: score
-            };
+        userName = $('#usr').val().trim();
+        userPhoto = $('#photo').val().trim();
+        userScore.push($('#q1').val());
+        userScore.push($('#q2').val());
+        userScore.push($('#q3').val());
+        userScore.push($('#q4').val());
+        userScore.push($('#q5').val());
+        userScore.push($('#q6').val());
+        userScore.push($('#q7').val());
+        userScore.push($('#q8').val());
+        userScore.push($('#q9').val());
+        userScore.push($('#q10').val());
 
-            console.log(friendsData);
+        //Here we grab the form elements 
+        var newFriend = {
+            name: userName,
+            photo: userPhoto,
+            scores: userScore
+        };
 
-            $.post("/api/friends", friendsData,
-                function(data) {
+        console.log(newFriend);
+                    
+        // Here we get the location of the root page.
+        // We use this instead of explicitly saying the URL is localhost:8080 because the url will change when we deploy.
+        var currentURL = window.location.origin;
+        // ============================================================================================================
+        // The AJAX function 
+        //uses the URL of our API to GET the data associated with it (initially set to localhost)
+        // ============================================================================================================
+        $.ajax({ 
+            url: currentURL + "/api/friends", 
+            method: "GET" 
+        }).done(function(response) {
+            // Here we log the friend data to console, where it will show up as an object.
+            console.log(response);
+            console.log("------------------------------------");
 
-          // If a table is available... tell user they are booked.
-          //if (data) {
-            //alert("Yay! You are officially booked!");
-          //}
+            // ============================================================================================================
+            //Loop through the Data to determine the user's most compatible friend using the following as a guide:
+            //compare the difference between current user's scores against those from other users, question by question. 
+            //Add up the differences to calculate the totalDifference
+            //Remember to use the absolute value of the differences
+            //The closest match will be the user with the least amount of difference.
+            // =============================================================================================================
+            var difference = 0;
+            var totalDifference = 0;
+            var totalDiffenceArr = [];
+            for(var i = 0; i < response.length; i++){
+                for(var j = 0; j < userScore.length; j++){
+                    difference = Math.abs(userScore[j] - response[i].scores[j]);
+                    totalDifference+= difference;
+                }
+                totalDiffenceArr.push(totalDifference);
+                difference = 0;
+                totalDifference = 0;
+            }
 
-          // If a table is available... tell user they on the waiting list.
-          //else {
-            //alert("Sorry you are on the wait list");
-          //}
+            //console.log(totalDiffenceArr);
 
-          // Clear the form when submitting
-          //$("#reserve-name").val("");
-          //$("#reserve-phone").val("");
-          //$("#reserve-email").val("");
-          //$("#reserve-unique-id").val("");
+            //find the index of the smallest element in the array
+            var smallestIndex = totalDiffenceArr.indexOf(Math.min.apply(Math, totalDiffenceArr));
+            //console.log(smallestIndex);
+            //console.log(response[smallestIndex]);
 
-        });
-        });
+            //Put name and photo into an modal popup
+            $('#name').html(response[smallestIndex].name);
+            $('#image').attr('src', response[smallestIndex].photo);   
+            $("#myModal").modal();
+
+            // ============================================================================================================
+            // The POST function
+            //In this code below we create the Front-end JavaScript which "POSTS" our form data to our express server.
+            // In essence, when the user hits submit, jQuery grabs all of the fields then sends a post request to our api
+            // Our api recognizes the route (/api/friends)... and then runs the associated code (found in apiRoutes.js).
+            // In this case the associated code "saves" the data to the friend-data.js file.
+            // ============================================================================================================
+            $.post("/api/friends", newFriend) 
+            .done(function(data) {
+                console.log(data); 
+                console.log("Adding new friend");
+            });
+        });     
+    });
+
+    $("#btn-reset").on("click", function(event) { 
+        //Clear name field
+        $('#usr').val("");
         
-    })
+        //Clear Photo field
+        $('#photo').val("");
 
+        //reset form options
+        $("#q1").val('default');
+        $("#q1").selectpicker("refresh");
+        $("#q2").val('default');
+        $("#q2").selectpicker("refresh");
+        $("#q3").val('default');
+        $("#q3").selectpicker("refresh");
+        $("#q4").val('default');
+        $("#q4").selectpicker("refresh");
+        $("#q5").val('default');
+        $("#q5").selectpicker("refresh");
+        $("#q6").val('default');
+        $("#q6").selectpicker("refresh");
+        $("#q7").val('default');
+        $("#q7").selectpicker("refresh");
+        $("#q8").val('default');
+        $("#q8").selectpicker("refresh");
+        $("#q9").val('default');
+        $("#q9").selectpicker("refresh");
+        $("#q10").val('default');
+        $("#q10").selectpicker("refresh");
+    });
+
+});
 </script>
+
+</html>  
