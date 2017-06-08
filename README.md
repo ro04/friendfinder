@@ -24,4 +24,4 @@ This full-stack site will take in results of your users' surveys, then compare t
 - Once the current user's most compatible friend is found, a modal pop-up displays the result.
     * The modal displays both the name and picture of the closest match.
 
-    ***https://pippylepew-friendfinder.herokuapp.com***
+    ***https://onemc-friendfinder.herokuapp.com/***
